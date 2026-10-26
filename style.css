@@ -221,3 +221,20 @@ body {
   font-size: 12px;
   color: var(--muted);
 }
+
+.resposta-ia {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  background: rgba(5, 12, 38, .6);
+}
+.resposta-ia h2 { font-size: 14px; font-weight: 600; }
+.resposta-ia p {
+  margin-top: 8px;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
